@@ -53,7 +53,7 @@ body {
     grid-template-rows: 50px 50px 50px;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    width: 300px;
     height: 200px;
     border: 8px;
     border-radius: 20px;
