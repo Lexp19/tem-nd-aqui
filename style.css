@@ -40,6 +40,12 @@ body {
     position: absolute;
     justify-content: center;
     align-items: center;
+    width: 120px;
+    height: 80px;
+    border: 8px;
+    border-radius: 20px;
+    background-image: radial-gradient(farthest-corner at center, rgba(240, 255, 255, 0.8), rgba(240, 255, 255, 1));
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
 .medium-box {
@@ -47,12 +53,6 @@ body {
     grid-template-rows: 50px 50px 50px;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 200px;
-    border: 8px;
-    border-radius: 20px;
-    background-image: radial-gradient(farthest-corner at center, rgba(240, 255, 255, 0.4), rgba(240, 255, 255, 0.7));
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
 .imagem {
