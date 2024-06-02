@@ -14,7 +14,7 @@ button.addEventListener('click', () => {
 
 document.getElementById("bt_sim").addEventListener("click", function() {
     var div = document.getElementById("cl-sim");
-    if (div.style.display === "none") {
+    if (div.style.display === "none" || div.style.display === "") {
         div.style.display = "flex";
       } else {
         div.style.display = "none";
